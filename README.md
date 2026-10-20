@@ -1,4 +1,4 @@
-# 💧 Maji Ndogo – Water Access Dashboard (Power BI)
+# 💧 Maji Ndogo - Water Access Dashboard (Power BI)
 
 An interactive Power BI report on water access in Maji Ndogo, built for **government decision-makers and funders**.
 It answers four questions: *Who has access to water? Where is the infrastructure failing? How long do people queue? Who is at risk?*
