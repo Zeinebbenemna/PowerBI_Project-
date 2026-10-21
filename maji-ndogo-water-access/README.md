@@ -30,7 +30,7 @@ Turn a ~60,000-record water survey into a clear, decision-ready report:
 
 ---
 
-## 💡 Key insights
+## I- Key insights
 
 - **~28M people** are covered by the survey; **64% live in rural areas**.
 - **Shared taps serve 43% of the population (11.9M people)**, more than double any other source.
@@ -43,7 +43,7 @@ Turn a ~60,000-record water survey into a clear, decision-ready report:
 
 ---
 
-## ✅ Recommendations
+## II- Recommendations
 
 - **Add taps at overcrowded shared sources**: since queue time scales with the number of users, one extra tap at a source serving 3,000 people roughly halves the waiting time.
 - **Prioritise repairs in Amanzi and Kilimani**, where broken home infrastructure is concentrated.
@@ -52,7 +52,7 @@ Turn a ~60,000-record water survey into a clear, decision-ready report:
 
 ---
 
-## 🧹 Data quality work
+## III- Data quality work
 
 - **Fixed population double-counting**: the data is recorded per *visit*, so shared taps (visited up to 8 times) were counted several times, inflating the total to 70M. A DAX measure filtering on the first visit brings it back to the correct ~28M.
 - **Detected a data anomaly**: some records showed 3,000-person queues lasting only 30 minutes; these were excluded from the queue analysis.
@@ -61,7 +61,7 @@ Turn a ~60,000-record water survey into a clear, decision-ready report:
 
 ---
 
-## 🧮 Key DAX measures
+## IV- Key DAX measures
 
 ```dax
 -- Population without double-counting (data is recorded per visit)
@@ -99,7 +99,7 @@ DIVIDE(
 
 ---
 
-## 🛠️ Tools & techniques
+## V- Tools & techniques
 
 - **Power BI Desktop**: Power Query, data modelling, custom shape map (provinces)
 - **DAX measures**: `CALCULATE`, `DIVIDE`, `DISTINCTCOUNT`
@@ -107,7 +107,7 @@ DIVIDE(
 
 ---
 
-## 🖼️ Screenshots
+## VI- Screenshots
 
 | | |
 |---|---|
